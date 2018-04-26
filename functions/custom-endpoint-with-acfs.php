@@ -1,8 +1,8 @@
 <?php
 
-///  Create a custom endpoint and output custom ACF's attached to that post/page in JSON
+//  Create a custom endpoint and output custom ACF's attached to that post/page in JSON
 ///  Custom Post Type 'Partners' Custom Endpoint | http://one20.com/one20/wp-json/v1/mobile_partners
-///
+//
 function mobile_partners_get( $request_data ) {
 
 	// setup query argument
